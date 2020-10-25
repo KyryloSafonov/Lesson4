@@ -10,37 +10,142 @@
     width: 100%;
 }
 
-.target1{
+.target1 {
     width: 100%;
-    position: relative;
+    float: left;
 }
 
 .target-item1{
-    margin: 0 auto;
-    position: absolute;
-    left: 310px;
+    margin-left: 310px;
+
 }
 
 .target-item1 a{
     text-decoration: none;
     color: black;
+
 }
 
 .menu1{
     color: #000;
     text-transform: uppercase;
     float: left;
-    margin-left: 10px;
+    margin: 10px 0 10px 10px;
     font-weight: bold;
     font-size: 14px;
+
 }
-.red a{
-    color: darkred;
-}
+
 
 .target2{
-
+    color: white;
     height: 100px;
     background: #5f0606;
 
+
+}
+
+.list{
+    float: left;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+.img>img{
+    height: 40px;
+    width: 40px;
+
+}
+.img{
+
+    float: left;
+}
+.list-text{
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.pravda{
+    float: left;
+    margin-left: 350px;
+
+}
+.pravda-text1{
+    margin-top: 20px;
+}
+.pravda-text1 a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+.pravda-text2{
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-left: 60px;
+}
+
+.lang{
+    float: right;
+    margin-right: 40px;
+    margin-top: 30px;
+
+}
+.lang-settings{
+    float: left;
+    margin-right: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+.ukr{
+    float: left;
+}
+.rus{
+    float: right;
+    margin-left: 5px;
+    color: grey;
+}
+.button{
+    float: right;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #9f1818;
+    color: white;
+    border-radius: 40% ;
+    box-sizing: border-box;
+    border: white solid;
+    padding: 10px;
+}
+
+.target3 {
+    width: 100%;
+    float: left;
+}
+
+.target-item2{
+    margin-left: 290px;
+
+}
+
+.target-item2 a {
+    text-decoration: none;
+    color: black;
+}
+.menu2 {
+    color: #000;
+    text-transform: uppercase;
+    float: left;
+    margin: 10px 0 10px 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.red a{
+    color: darkred;
 }
