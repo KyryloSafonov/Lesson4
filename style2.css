@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100%;
+}
+.target1{
+    width: 100%;
+}
+
+.target-item1{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 310px;
+}
+.target-item1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu1{
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+.target2 {
+    color: white;
+    height: 100px;
+    background: #5f0606;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img>img {
+    height: 40px;
+    width: 40px;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.list-text{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top:10px;
+    margin-left: 15px;
+}
+
+.pravda-text1 a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+.pravda-text2 {
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-left: 60px;
+}
+
+.lang{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.lang-settings{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+.rus{
+    color: grey;
+}
+
+.button{
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #9f1818;
+    color: white;
+    border-radius: 40% ;
+    box-sizing: border-box;
+    border: white solid;
+    padding: 10px;
+}
+
+.target3 {
+    width: 100%;
+}
+.target-item2 {
+    width: 70%;
+    margin-left: 260px;
+    display: flex;
+    justify-content: space-between;
+}
+.target-item2 a {
+    text-decoration: none;
+    color: black;
+
+}
+.menu2 {
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.red a{
+    color: #5f0606;
+}
