@@ -91,10 +91,11 @@
     font-weight: bold;
     background: #9f1818;
     color: white;
-    border-radius: 40% ;
+    border-radius: 20px ;
     box-sizing: border-box;
     border: white solid;
     padding: 10px;
+    outline: none;
 }
 
 .target3 {
@@ -116,8 +117,128 @@
     text-transform: uppercase;
     font-weight: bold;
     margin-top: 10px;
+    margin-bottom: 10px;
     font-size: 18px;
 }
 .red a{
     color: #5f0606;
 }
+
+.section1{
+    width: 100%;
+}
+.covid{
+    margin: 20px 0 10px 36px;
+}
+.covid a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: #5f0606;
+}
+.static{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 0 10px 0;
+}
+.img-static>img{
+    box-sizing: border-box;
+    border: 1px grey solid;
+}
+.quantity{
+    margin-left: 36px;
+    margin-bottom: 10px;
+}
+.span{
+    font-weight: bold;
+}
+.link-map{
+    margin-left: 36px;
+}
+.link-map a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #5f0606;
+}
+
+.section2{
+    padding: 0 36px 0 36px;
+    background: grey;
+    margin-top: 20px;
+
+}
+.preview{
+    display: flex;
+    border-bottom: 3px #3b3939 solid;
+    /*justify-content: space-between;*/
+}
+.img-preview>img{
+    height: 150px;
+    width: 250px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+.heading-preview {
+    margin-top:30px ;
+    margin-left: 40px;
+}
+.heading-preview a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 45px;
+    color: #fff;
+}
+.heading-preview a:hover{
+    color: #aea6a6;
+    cursor: pointer;
+}
+.text-preview{
+    margin-top: 10px;
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+}
+.news{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-left: 16px;
+}
+.box-news{
+    height: 98px;
+    width: 301px;
+    border-right: 3px #3b3939 solid ;
+    position: relative;
+    margin-bottom: 25px;
+
+}
+.box-news a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box-news::before{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    top: 6px;
+    left: -18px;
+}
+.box-news a:hover{
+    color: #aea6a6;
+    cursor: pointer;
+}
+.border-non {
+    border: none;
+}
+
